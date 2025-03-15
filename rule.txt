@@ -1,0 +1,8 @@
+
+# how to release code (direct push disallowed):
+
+1) build api offline 
+2) test all api multiple times offline
+3) apply maintainence to all active versions
+4) wait 35 minutes
+5) push code to server via : .\open-server_push.bat

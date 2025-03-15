@@ -1,0 +1,10 @@
+
+# Lock : for single instance.
+# LockRedis : for multi-instance in same computer , i.e leverage cpu cores.
+
+
+# Now the user is less so use simple lock because we run only one node instance.
+  In future if use multi node i.e cluster use RedisLockManager to make it work properly
+
+
+# To use redisLock simply replace import and usage. 

@@ -2,9 +2,9 @@
 set SERVER_USERNAME=root
 set SERVER_IP=167.99.70.62
 set SERVER_PASSWORD=cxroyal2@Lion
-set TARGET_DIR=/node/carrom-clash/cc-app-api
+set TARGET_DIR=/node/carrom-clash/cc-app-api_dev
 set TEMP_DIR=/tmp/
-set POST_COMMAND= pm2 restart cc-app-api && pm2 ls
+set POST_COMMAND= pm2 restart cc-app-api_dev && pm2 ls
 
 REM Step 1: Compress current directory contents into code.rar : install sudo apt update , sudo apt install unrar
 "C:\Program Files\WinRAR\Rar.exe" a -r -inul code.rar * -x*.git\

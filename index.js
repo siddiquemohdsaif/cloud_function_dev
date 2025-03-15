@@ -1,7 +1,7 @@
 const express = require('express');
 const AES = require("./utils/AES_256");
 const app = express();
-const port = process.env.PORT || 3100;
+const port = process.env.PORT || 3100+100;
 
 // Import routes
 const healthCheck = require('./routes/healthCheck');
